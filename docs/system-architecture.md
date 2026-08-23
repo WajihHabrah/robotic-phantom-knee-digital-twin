@@ -40,13 +40,13 @@ The system is organized into two main layers:
               ┌──────────────┘           └──────────────┐
               ▼                                         ▼
 ┌─────────────────────────────┐          ┌─────────────────────────────┐
-│ Antagonistic Robotic        │          │ Pneumatic Soft-Tissue      │
-│ Actuation                   │          │ System                     │
+│ Antagonistic Robotic        │          │ Pneumatic Soft-Tissue       │
+│ Actuation                   │          │ System                      │
 │                             │          │                             │
-│ BEAR Motor 1                │          │ Inflation                  │
-│ BEAR Motor 2                │          │ Pressure Release           │
-│ Tracking · Clamping         │          │ Variable Compliance        │
-│ Backdrivability             │          │ Soft-Tissue Deformation    │
+│ BEAR Motor 1                │          │ Inflation                   │
+│ BEAR Motor 2                │          │ Pressure Release            │
+│ Tracking · Clamping         │          │ Variable Compliance         │
+│ Backdrivability             │          │ Soft-Tissue Deformation     │
 └──────────────┬──────────────┘          └─────────────────────────────┘
                │
                ▼
