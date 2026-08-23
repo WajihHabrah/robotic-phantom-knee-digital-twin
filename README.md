@@ -6,6 +6,18 @@ The system combines antagonistic robotic actuation, embedded sensing, pneumatic 
 
 This project was developed as part of my Master's thesis in Biomedical Engineering at Chalmers University of Technology.
 
+<p align="center">
+  <img
+    src="docs/images/robotic-phantom-knee-overview.png"
+    alt="Robotic Phantom Knee Digital Twin"
+    width="850"
+  >
+</p>
+
+<p align="center">
+  <em>Robotic Phantom Knee physical and digital test platform.</em>
+</p>
+
 ---
 
 ## Project Overview
