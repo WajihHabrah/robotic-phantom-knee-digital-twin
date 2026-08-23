@@ -1,0 +1,177 @@
+# ==========================================
+# Robotic Phantom Knee Digital Twin
+# Git ignore rules
+# ==========================================
+
+
+# ------------------------------------------
+# Operating system
+# ------------------------------------------
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ------------------------------------------
+# VS Code
+# ------------------------------------------
+
+.vscode/
+*.code-workspace
+
+
+# ------------------------------------------
+# Python
+# ------------------------------------------
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+
+
+# ------------------------------------------
+# ROS 2 / colcon
+# ------------------------------------------
+
+build/
+install/
+log/
+
+*.bag
+*.bag2
+
+rosbag2_*/
+
+
+# ------------------------------------------
+# C / C++
+# ------------------------------------------
+
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.a
+*.lib
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+
+# ------------------------------------------
+# Unity generated directories
+# ------------------------------------------
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+
+# Unity generated files
+
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+*.unityproj
+*.tmp
+*.svd
+
+
+# ------------------------------------------
+# Visual Studio
+# ------------------------------------------
+
+.vs/
+Debug/
+Release/
+x64/
+x86/
+
+
+# ------------------------------------------
+# PlatformIO / embedded development
+# ------------------------------------------
+
+.pio/
+.pioenvs/
+.piolibdeps/
+
+*.elf
+*.hex
+*.bin
+
+
+# ------------------------------------------
+# Arduino / embedded temporary files
+# ------------------------------------------
+
+*.eep
+*.map
+
+
+# ------------------------------------------
+# Blender temporary / backup files
+# ------------------------------------------
+
+*.blend1
+*.blend2
+*.blend@
+*.blend@*
+
+
+# ------------------------------------------
+# Large archive / temporary files
+# ------------------------------------------
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+*.tmp
+*.bak
+*.log
+
+
+# ------------------------------------------
+# Local configuration / secrets
+# ------------------------------------------
+
+.env
+.env.*
+secrets/
+credentials/
+
+*.key
+*.pem
+
+
+# ------------------------------------------
+# Large generated media
+# ------------------------------------------
+
+*.mp4
+*.mov
+*.avi
+*.mkv
