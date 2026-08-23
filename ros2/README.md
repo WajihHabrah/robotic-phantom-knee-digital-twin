@@ -1,20 +1,12 @@
 # ROS 2
 
-This directory contains selected ROS 2 documentation and source code used in the Robotic Phantom Knee project.
+The Robotic Phantom Knee ROS 2 software is organized around four
+main functional subsystems:
 
-The ROS 2 system is based on:
+- Actuators
+- Pneumatics
+- Feathers
+- Play / Orchestrator
 
-* ROS 2 Jazzy
-* Ubuntu 24.04 LTS
-* Raspberry Pi 5
-
-ROS 2 is used for:
-
-* Robotic actuator control
-* Actuator feedback
-* Embedded sensor acquisition
-* Position and velocity communication
-* Data routing
-* Unity digital-twin communication
-
-Generated ROS 2 directories such as `build/`, `install/`, and `log/` are intentionally excluded.
+ROS 2 Jazzy runs on the Raspberry Pi 5 and provides the integration
+layer between the physical hardware and the Unity-based digital twin.
