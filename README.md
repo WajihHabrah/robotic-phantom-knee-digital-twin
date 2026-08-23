@@ -63,6 +63,8 @@ The demonstration covers:
 
 ## System Architecture
 
+[View detailed system architecture](docs/system-architecture.md)
+
 A simplified representation of the system is:
 
 ```text
